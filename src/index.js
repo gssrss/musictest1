@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
+import Header from './Header';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
